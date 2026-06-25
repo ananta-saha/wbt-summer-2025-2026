@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create account</title>
+    </head>
+    <body>
+        <form>
+            <h1>Create your account</h1>
+            <p>join us in a couple of steps.</p>
+            <hr>
+            <div class="Field>
+                <label for="fullname">Full Name</label>
+                 <input type="text" placeholder="Ananta Saha" id="fullname" name="fullname" required>
+            </div>
+            <div class ="Field">
+                <label for="age">Age</label>
+                <input type="number" placeholder="21" id="age" name="age" required>
+            </div>
+            <div class="Field">
+                <label for="dob" >Date of birth</label>
+                <input type="date" placeholder="25/06/2026" id="dob" name="dob" required> 
+            </div>
+            <div class="Field">
+                <label for="email" >Email address</label>
+                <input type="email" placeholder="anoysaha0606@gmail.com" id="email" name="email" required> 
+            </div>
+            <div class="Field">
+                <label for="password" >Password</label>
+                <input type="text" placeholder="****" pattern="[0-9]{4,}" id="password" name="password" required> 
+            </div>
+            <div class="check">
+                <label for="contact">Preferred contact</label>
+                <input type="radio" name="contact" value="email">Email
+                <input type="radio" name="contact" value="phone">Phone
+                <input type="radio" name="contact" value="sms">SMS
+            </div>
+            <div class="buttons">
+                <button type="submit" class="btn-primary">Submit</button>
+                <button type="reset" class="btn-secondary">Reset</button>
+            </div>
+        </form>
+    </body>
+</html>
