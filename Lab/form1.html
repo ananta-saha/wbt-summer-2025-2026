@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>workspace</title>
+    </head>
+    <body>
+        <form method="post">
+            <h6>GET STARTED</h6>
+            <h1>Create your workspace</h1>
+            <hr>
+            <div class="Field">
+                <label for="fullname">Full name</label>
+                <input type="text" placeholder="Jane Doe" id="fullname" name="fullname" required>
+            </div>
+            <div class="Field">
+                <label for="phone">Phone number</label>
+                <input type="number" placeholder="01862787757" id="phone" name="phone" required>
+            </div>
+            <div class="Field">
+                <label for="dob">Date of birth</label>
+                <input type="date" placeholder="06/06/2003" id="dob" name="dob" required>
+            </div>
+            <div class="Field">
+                <label for="email">Email</label>
+                <input type="email" placeholder="saha@gmail.com" id="email" name="email" required>
+            </div>
+            <div class="Field">
+                <label for="pass">Password</label>
+                <input type="password"  placeholder="At least 8 character" pattern=".{8,}" title="Password must be at least 8 characters"
+                        id="pass" name="pass" required>
+            </div>
+            <div class="check">
+                <input type="checkbox" value="email me product updates and tips">
+                Email me product updates and tips
+            </div>
+            <div class="check">
+                <input type="checkbox" value="i agree to the terms & privacy policy">
+                I agree to the Terms & Privacy policy
+            </div>
+            <div>
+                <button type="create workspace" class="btn-primary">Create workspace</button>
+                <button type="reset" class="btn-secondary">Reset</button>
+            </div>
+        </form>
+    </body>
+</html>
