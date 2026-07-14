@@ -1,0 +1,89 @@
+body{
+    background-color: #f3f4f6; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100vh;        
+    margin: 0;
+}
+form {
+    background-color: white;
+    width: 100%;
+    max-width: 480px;        
+    border-radius: 16px;     
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+    overflow: hidden;         
+}
+h6, h1 {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #10254d;
+}
+h6 {
+    color: rgb(93, 130, 217);
+    padding-top: 20px; 
+}
+h1 {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 24px;  
+}
+.Field{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.Field label {
+    font-size: 14px;
+    color: #4a5568;
+    font-weight: 600;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover { 
+    background-color: #e2e8f0;
+}
+.check {
+    padding: 8px 30px;
+    align-items: center;
+    font-size: 14px;
+}
+form > div:last-child {
+    padding: 24px 30px 35px 30px;
+    display: flex;
+    gap: 15px;
+}
+button {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn-primary {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: #2563eb;
+}
+.btn-secondary {
+    background-color: #f0f4f8;
+    color: #4a5568;
+}
+.btn-secondary:hover {
+    background-color: #e2e8f0;
+}

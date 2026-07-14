@@ -1,0 +1,77 @@
+body{
+    background-color: #f3f4f6; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    min-height: 100vh;           
+    margin: 0;
+}
+form {
+    background-color: white;
+    width: 100%;
+    max-width: 480px;        
+    border-radius: 16px;     
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+    overflow: hidden;         
+}
+h1{
+    color:rgb(56, 56, 205);
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+p{
+ color:gray;
+ padding-left: 15px;
+ margin-top: 0px;
+}
+hr{
+    height: 2px;
+    background-color: rgb(61, 61, 152); 
+}
+.Field{
+    font-family: 'Courier New', Courier, monospace;
+    color: #4a5568;
+    font-weight: 600;
+    margin: 15px;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover,
+input[type="email"]:hover,
+select:hover{
+    background-color: whitesmoke;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 20px 15px;
+    height: 30px;
+}
+.btn-primary {
+    flex:3;
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: #2563eb;
+}
+.btn-secondary {
+    flex: 1;
+    background-color: #f0f4f8;
+    color: #4a5568;
+}
+.btn-secondary:hover {
+    background-color: #e2e8f0;
+}
